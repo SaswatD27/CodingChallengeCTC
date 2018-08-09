@@ -20,7 +20,7 @@ void decipher(char A[])
 	for(j=0;j<count;j++)
 	{
 		f=fac[j];
-		cout<<"Solution No. - "<<j+1<<endl;
+		cout<<endl<<endl<<"Solution No. - "<<j+1<<endl;
 		for(k=0;k<f;k++)
 		{
 			for(i=0;A[i]!=NULL;i++)
@@ -28,7 +28,6 @@ void decipher(char A[])
 				if(i%f==k)
 				cout<<A[i];
 			}
-			cout<<endl;
 		}
 	}
 	cout<<"That's all folks!!!";
